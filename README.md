@@ -84,7 +84,10 @@ Segurito combina hardware con módulos de software inteligentes para dar una sol
 El chasis completo del robot y los soportes de los componentes han sido diseñados en Fusion 360. Puedes encontrar los archivos del modelo aquí:
 
 - `3Dmodels/Base.stl`
-- `3Dmodels/SegundaPlanta.stl`
+- `3Dmodels/Adaptador Base.stl`
+- `3Dmodels/Segundo Piso.stl`
+- `3Dmodels/Adaptador Sensor PIR.stl`
+- `3Dmodels/Adaptador Lidar.stl`
 - `3Dmodels/Cupula.stl`
 
 Vista Previa del Ensamblaje 3D
