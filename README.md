@@ -99,7 +99,7 @@ Vista Previa del Ensamblaje 3D
 
 ### Diagrama de Hardware
 
-![Diagrama de Hardware](img/EsquemaSegurito.png)
+![Diagrama de Hardware](img/EsquemaHW.png)
 
 ### Diagrama de Software
 
