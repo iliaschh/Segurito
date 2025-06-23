@@ -1,6 +1,6 @@
 # Segurito 
 
-![Logo del Proyecto](img/SeguritoBanner.png)
+![Logo del Proyecto](img/Banner.png)
 
 ## Tabla de Contenidos
 
