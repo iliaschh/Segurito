@@ -1,6 +1,6 @@
 # Segurito 
 
-![Logo del Proyecto](img/Banner.png)
+![Logo del Proyecto](resources/Banner.png)
 
 ## Tabla de Contenidos
 
@@ -89,9 +89,9 @@ El chasis completo del robot y los soportes de los componentes han sido diseñad
 
 Vista Previa del Ensamblaje 3D
 
-![Vista Previa 3D](img/3Dpiece1.png)
-![Vista Previa 3D](img/3Dpiece2.png)
-![Vista Previa 3D](img/3Dpiece3.png)
+![Vista Previa 3D](resources/3Dpiece1.png)
+![Vista Previa 3D](resources/3Dpiece2.png)
+![Vista Previa 3D](resources/3Dpiece3.png)
 
 ---
 
@@ -99,7 +99,7 @@ Vista Previa del Ensamblaje 3D
 
 ### Diagrama de Hardware
 
-![Diagrama de Hardware](img/EsquemaHW.png)
+![Diagrama de Hardware](resources/EsquemaHW.png)
 
 ### Diagrama de Software
 
