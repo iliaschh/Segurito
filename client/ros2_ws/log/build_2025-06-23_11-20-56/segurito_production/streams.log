@@ -1,0 +1,25 @@
+[3.269s] Invoking command in '/home/neverdiedooms/ros2_ws/src/segurito_production': PYTHONPATH=/home/neverdiedooms/ros2_ws/build/segurito_production/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/segurito_production build --build-base /home/neverdiedooms/ros2_ws/build/segurito_production/build install --record /home/neverdiedooms/ros2_ws/build/segurito_production/install.log --single-version-externally-managed install_data
+[4.653s] running egg_info
+[4.656s] writing ../../build/segurito_production/segurito_production.egg-info/PKG-INFO
+[4.657s] writing dependency_links to ../../build/segurito_production/segurito_production.egg-info/dependency_links.txt
+[4.658s] writing entry points to ../../build/segurito_production/segurito_production.egg-info/entry_points.txt
+[4.660s] writing requirements to ../../build/segurito_production/segurito_production.egg-info/requires.txt
+[4.660s] writing top-level names to ../../build/segurito_production/segurito_production.egg-info/top_level.txt
+[4.672s] reading manifest file '../../build/segurito_production/segurito_production.egg-info/SOURCES.txt'
+[4.678s] writing manifest file '../../build/segurito_production/segurito_production.egg-info/SOURCES.txt'
+[4.679s] running build
+[4.679s] running build_py
+[4.682s] running install
+[4.683s] running install_lib
+[4.691s] running install_data
+[4.693s] copying launch/mapping_launch.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/launch
+[4.696s] running install_egg_info
+[4.704s] removing '/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production-0.0.0-py3.10.egg-info' (and everything under it)
+[4.706s] Copying ../../build/segurito_production/segurito_production.egg-info to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production-0.0.0-py3.10.egg-info
+[4.715s] running install_scripts
+[4.814s] Installing drive_base script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+[4.815s] Installing imu_node script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+[4.816s] Installing odometria script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+[4.817s] Installing static_laser_tf script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+[4.820s] writing list of installed files to '/home/neverdiedooms/ros2_ws/build/segurito_production/install.log'
+[4.948s] Invoked command in '/home/neverdiedooms/ros2_ws/src/segurito_production' returned '0': PYTHONPATH=/home/neverdiedooms/ros2_ws/build/segurito_production/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/segurito_production build --build-base /home/neverdiedooms/ros2_ws/build/segurito_production/build install --record /home/neverdiedooms/ros2_ws/build/segurito_production/install.log --single-version-externally-managed install_data

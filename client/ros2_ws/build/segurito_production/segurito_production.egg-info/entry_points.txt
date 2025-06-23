@@ -1,0 +1,6 @@
+[console_scripts]
+drive_base = segurito_production.drive_base:main
+imu_node = segurito_production.imu_node:main
+odometria = segurito_production.odometria_node:main
+static_laser_tf = segurito_production.static_laser_tf:main
+

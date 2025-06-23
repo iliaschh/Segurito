@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/neverdiedooms/ros2_ws/install/segurito/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/neverdiedooms/ros2_ws/src/rplidar_ros/include/**",
+        "/home/neverdiedooms/ros2_ws/src/segurito/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,60 @@
+[3.995s] Invoking command in '/home/neverdiedooms/ros2_ws/src/segurito_production': PYTHONPATH=/home/neverdiedooms/ros2_ws/build/segurito_production/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/segurito_production build --build-base /home/neverdiedooms/ros2_ws/build/segurito_production/build install --record /home/neverdiedooms/ros2_ws/build/segurito_production/install.log --single-version-externally-managed install_data
+[5.250s] running egg_info
+[5.253s] creating ../../build/segurito_production/segurito_production.egg-info
+[5.253s] writing ../../build/segurito_production/segurito_production.egg-info/PKG-INFO
+[5.254s] writing dependency_links to ../../build/segurito_production/segurito_production.egg-info/dependency_links.txt
+[5.255s] writing entry points to ../../build/segurito_production/segurito_production.egg-info/entry_points.txt
+[5.256s] writing requirements to ../../build/segurito_production/segurito_production.egg-info/requires.txt
+[5.257s] writing top-level names to ../../build/segurito_production/segurito_production.egg-info/top_level.txt
+[5.257s] writing manifest file '../../build/segurito_production/segurito_production.egg-info/SOURCES.txt'
+[5.271s] reading manifest file '../../build/segurito_production/segurito_production.egg-info/SOURCES.txt'
+[5.276s] writing manifest file '../../build/segurito_production/segurito_production.egg-info/SOURCES.txt'
+[5.276s] running build
+[5.277s] running build_py
+[5.278s] creating /home/neverdiedooms/ros2_ws/build/segurito_production/build
+[5.279s] creating /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib
+[5.279s] creating /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+[5.280s] copying segurito_production/__init__.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+[5.280s] copying segurito_production/drive_base.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+[5.282s] copying segurito_production/static_laser_tf.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+[5.284s] copying segurito_production/odometria_node.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+[5.286s] copying segurito_production/imu_node.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+[5.288s] running install
+[5.290s] running install_lib
+[5.294s] creating /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+[5.294s] copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/__init__.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+[5.295s] copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/drive_base.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+[5.296s] copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/static_laser_tf.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+[5.297s] copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/odometria_node.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+[5.298s] copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/imu_node.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+[5.302s] byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/__init__.py to __init__.cpython-310.pyc
+[5.303s] byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/drive_base.py to drive_base.cpython-310.pyc
+[5.308s] byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/static_laser_tf.py to static_laser_tf.cpython-310.pyc
+[5.310s] byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/odometria_node.py to odometria_node.cpython-310.pyc
+[5.315s] byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/imu_node.py to imu_node.cpython-310.pyc
+[5.319s] running install_data
+[5.320s] creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/ament_index
+[5.320s] creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/ament_index/resource_index
+[5.321s] creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/ament_index/resource_index/packages
+[5.322s] copying resource/segurito_production -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/ament_index/resource_index/packages
+[5.323s] copying package.xml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production
+[5.323s] creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/launch
+[5.324s] copying launch/mapping_launch.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/launch
+[5.325s] creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+[5.325s] copying config/ekf.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+[5.327s] copying config/nav2_params.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+[5.328s] copying config/slam_localization.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+[5.330s] copying config/slam_mapping.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+[5.331s] copying config/nav2_params copy.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+[5.332s] copying config/dummy_map.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+[5.334s] copying config/dummy.pgm -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+[5.335s] creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/maps
+[5.336s] running install_egg_info
+[5.344s] Copying ../../build/segurito_production/segurito_production.egg-info to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production-0.0.0-py3.10.egg-info
+[5.350s] running install_scripts
+[5.441s] Installing drive_base script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+[5.442s] Installing imu_node script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+[5.443s] Installing odometria script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+[5.443s] Installing static_laser_tf script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+[5.445s] writing list of installed files to '/home/neverdiedooms/ros2_ws/build/segurito_production/install.log'
+[5.573s] Invoked command in '/home/neverdiedooms/ros2_ws/src/segurito_production' returned '0': PYTHONPATH=/home/neverdiedooms/ros2_ws/build/segurito_production/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/segurito_production build --build-base /home/neverdiedooms/ros2_ws/build/segurito_production/build install --record /home/neverdiedooms/ros2_ws/build/segurito_production/install.log --single-version-externally-managed install_data

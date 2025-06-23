@@ -1,0 +1,195 @@
+[1.111s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb28d43d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb29cd2d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb29cd2d0>>, mixin_verb=('build',))
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.301s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/neverdiedooms/ros2_ws'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[2.414s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/segurito_production) by extensions ['ignore', 'ignore_ament_install']
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/segurito_production) by extension 'ignore'
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/segurito_production) by extension 'ignore_ament_install'
+[2.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/segurito_production) by extensions ['colcon_pkg']
+[2.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/segurito_production) by extension 'colcon_pkg'
+[2.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/segurito_production) by extensions ['colcon_meta']
+[2.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/segurito_production) by extension 'colcon_meta'
+[2.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/segurito_production) by extensions ['ros']
+[2.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/segurito_production) by extension 'ros'
+[2.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/segurito_production' with type 'ros.ament_python' and name 'segurito_production'
+[2.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.577s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/neverdiedooms/explore_ws/install
+[2.587s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 241 installed packages in /opt/ros/humble
+[2.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.799s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[2.799s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.800s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neverdiedooms/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neverdiedooms/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/neverdiedooms/ros2_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[2.802s] Level 5:colcon.colcon_core.verb:set package 'segurito_production' build argument 'cmake_args' from command line to 'None'
+[2.802s] Level 5:colcon.colcon_core.verb:set package 'segurito_production' build argument 'cmake_target' from command line to 'None'
+[2.802s] Level 5:colcon.colcon_core.verb:set package 'segurito_production' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.802s] Level 5:colcon.colcon_core.verb:set package 'segurito_production' build argument 'cmake_clean_cache' from command line to 'False'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'segurito_production' build argument 'cmake_clean_first' from command line to 'False'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'segurito_production' build argument 'cmake_force_configure' from command line to 'False'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'segurito_production' build argument 'ament_cmake_args' from command line to 'None'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'segurito_production' build argument 'catkin_cmake_args' from command line to 'None'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'segurito_production' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.803s] DEBUG:colcon.colcon_core.verb:Building package 'segurito_production' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neverdiedooms/ros2_ws/build/segurito_production', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neverdiedooms/ros2_ws/install/segurito_production', 'merge_install': False, 'path': '/home/neverdiedooms/ros2_ws/src/segurito_production', 'symlink_install': False, 'test_result_base': None}
+[2.804s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.809s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/neverdiedooms/ros2_ws/src/rplidar_ros' with build type 'ament_cmake'
+[2.809s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/neverdiedooms/ros2_ws/src/rplidar_ros'
+[2.833s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.857s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/neverdiedooms/ros2_ws/src/segurito_production' with build type 'ament_python'
+[2.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('segurito_production', 'ament_prefix_path')
+[2.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/hook/ament_prefix_path.ps1'
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/hook/ament_prefix_path.dsv'
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/hook/ament_prefix_path.sh'
+[2.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neverdiedooms/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/neverdiedooms/explore_ws/install/nav2_wfd:/opt/ros/humble /usr/bin/cmake /home/neverdiedooms/ros2_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/neverdiedooms/ros2_ws/install/rplidar_ros
+[4.303s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/neverdiedooms/ros2_ws/src/segurito_production'
+[4.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neverdiedooms/ros2_ws/src/segurito_production': PYTHONPATH=/home/neverdiedooms/ros2_ws/build/segurito_production/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/segurito_production build --build-base /home/neverdiedooms/ros2_ws/build/segurito_production/build install --record /home/neverdiedooms/ros2_ws/build/segurito_production/install.log --single-version-externally-managed install_data
+[8.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neverdiedooms/ros2_ws/src/segurito_production' returned '0': PYTHONPATH=/home/neverdiedooms/ros2_ws/build/segurito_production/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/segurito_production build --build-base /home/neverdiedooms/ros2_ws/build/segurito_production/build install --record /home/neverdiedooms/ros2_ws/build/segurito_production/install.log --single-version-externally-managed install_data
+[8.456s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/segurito_production' for CMake module files
+[8.459s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/segurito_production' for CMake config files
+[8.464s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/segurito_production/lib'
+[8.465s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/segurito_production/bin'
+[8.466s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/segurito_production/lib/pkgconfig/segurito_production.pc'
+[8.467s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages'
+[8.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('segurito_production', 'pythonpath')
+[8.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/hook/pythonpath.ps1'
+[8.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/hook/pythonpath.dsv'
+[8.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/hook/pythonpath.sh'
+[8.475s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/segurito_production/bin'
+[8.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(segurito_production)
+[8.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/package.ps1'
+[8.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/package.dsv'
+[8.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/package.sh'
+[8.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/package.bash'
+[8.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/package.zsh'
+[8.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neverdiedooms/ros2_ws/install/segurito_production/share/colcon-core/packages/segurito_production)
+[12.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neverdiedooms/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/neverdiedooms/explore_ws/install/nav2_wfd:/opt/ros/humble /usr/bin/cmake /home/neverdiedooms/ros2_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/neverdiedooms/ros2_ws/install/rplidar_ros
+[12.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neverdiedooms/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/neverdiedooms/explore_ws/install/nav2_wfd:/opt/ros/humble /usr/bin/cmake --build /home/neverdiedooms/ros2_ws/build/rplidar_ros -- -j4 -l4
+[77.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neverdiedooms/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/neverdiedooms/explore_ws/install/nav2_wfd:/opt/ros/humble /usr/bin/cmake --build /home/neverdiedooms/ros2_ws/build/rplidar_ros -- -j4 -l4
+[77.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neverdiedooms/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/neverdiedooms/explore_ws/install/nav2_wfd:/opt/ros/humble /usr/bin/cmake --install /home/neverdiedooms/ros2_ws/build/rplidar_ros
+[77.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[77.704s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros' for CMake module files
+[77.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neverdiedooms/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/neverdiedooms/explore_ws/install/nav2_wfd:/opt/ros/humble /usr/bin/cmake --install /home/neverdiedooms/ros2_ws/build/rplidar_ros
+[77.708s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros' for CMake config files
+[77.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[77.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[77.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[77.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[77.717s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/lib'
+[77.717s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/bin'
+[77.718s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[77.719s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[77.720s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/bin'
+[77.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[77.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[77.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[77.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[77.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[77.731s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[77.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[77.735s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros' for CMake module files
+[77.739s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros' for CMake config files
+[77.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[77.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[77.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[77.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[77.749s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/lib'
+[77.749s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/bin'
+[77.749s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[77.750s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[77.751s] Level 1:colcon.colcon_core.environment:checking '/home/neverdiedooms/ros2_ws/install/rplidar_ros/bin'
+[77.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[77.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[77.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[77.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[77.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[77.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neverdiedooms/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[77.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[77.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[77.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[77.770s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[77.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[77.808s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[77.808s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[77.808s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[77.842s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[77.842s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[77.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neverdiedooms/ros2_ws/install/local_setup.ps1'
+[77.851s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/neverdiedooms/ros2_ws/install/_local_setup_util_ps1.py'
+[77.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neverdiedooms/ros2_ws/install/setup.ps1'
+[77.867s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neverdiedooms/ros2_ws/install/local_setup.sh'
+[77.870s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/neverdiedooms/ros2_ws/install/_local_setup_util_sh.py'
+[77.873s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neverdiedooms/ros2_ws/install/setup.sh'
+[77.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neverdiedooms/ros2_ws/install/local_setup.bash'
+[77.881s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neverdiedooms/ros2_ws/install/setup.bash'
+[77.886s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neverdiedooms/ros2_ws/install/local_setup.zsh'
+[77.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neverdiedooms/ros2_ws/install/setup.zsh'

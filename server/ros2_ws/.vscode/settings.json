@@ -1,0 +1,42 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/neverdiedooms/explore_ws/install/nav2_wfd/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2_ws/install/segurito_gazebo/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2_ws/install/segurito_description/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2_ws/install/segurito_bringup/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/srvcli_package/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/rosmasterx3_sim/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/pubsub_package/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/parameters_tutorial/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/my_second_package/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/my_first_package/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/mecanum_robot_sim/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/lifecycle_nodes/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/interfaces_tutorial/local/lib/python3.10/dist-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/diff_drive_sim_gazebo/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/diff_drive_sim/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/action_package/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/neverdiedooms/explore_ws/install/nav2_wfd/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2_ws/install/segurito_gazebo/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2_ws/install/segurito_description/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2_ws/install/segurito_bringup/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/srvcli_package/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/rosmasterx3_sim/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/pubsub_package/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/parameters_tutorial/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/my_second_package/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/my_first_package/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/mecanum_robot_sim/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/lifecycle_nodes/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/interfaces_tutorial/local/lib/python3.10/dist-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/diff_drive_sim_gazebo/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/diff_drive_sim/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2-tutorials-ws/install/action_package/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

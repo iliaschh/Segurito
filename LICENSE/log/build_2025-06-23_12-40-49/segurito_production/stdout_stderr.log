@@ -1,0 +1,58 @@
+running egg_info
+creating ../../build/segurito_production/segurito_production.egg-info
+writing ../../build/segurito_production/segurito_production.egg-info/PKG-INFO
+writing dependency_links to ../../build/segurito_production/segurito_production.egg-info/dependency_links.txt
+writing entry points to ../../build/segurito_production/segurito_production.egg-info/entry_points.txt
+writing requirements to ../../build/segurito_production/segurito_production.egg-info/requires.txt
+writing top-level names to ../../build/segurito_production/segurito_production.egg-info/top_level.txt
+writing manifest file '../../build/segurito_production/segurito_production.egg-info/SOURCES.txt'
+reading manifest file '../../build/segurito_production/segurito_production.egg-info/SOURCES.txt'
+writing manifest file '../../build/segurito_production/segurito_production.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/neverdiedooms/ros2_ws/build/segurito_production/build
+creating /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib
+creating /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+copying segurito_production/__init__.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+copying segurito_production/drive_base.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+copying segurito_production/static_laser_tf.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+copying segurito_production/odometria_node.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+copying segurito_production/imu_node.py -> /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production
+running install
+running install_lib
+creating /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/__init__.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/drive_base.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/static_laser_tf.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/odometria_node.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+copying /home/neverdiedooms/ros2_ws/build/segurito_production/build/lib/segurito_production/imu_node.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production
+byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/drive_base.py to drive_base.cpython-310.pyc
+byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/static_laser_tf.py to static_laser_tf.cpython-310.pyc
+byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/odometria_node.py to odometria_node.cpython-310.pyc
+byte-compiling /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production/imu_node.py to imu_node.cpython-310.pyc
+running install_data
+creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/ament_index
+creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/ament_index/resource_index
+creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/ament_index/resource_index/packages
+copying resource/segurito_production -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/ament_index/resource_index/packages
+copying package.xml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production
+creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/launch
+copying launch/mapping_launch.py -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/launch
+creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+copying config/ekf.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+copying config/nav2_params.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+copying config/slam_localization.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+copying config/slam_mapping.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+copying config/nav2_params copy.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+copying config/dummy_map.yaml -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+copying config/dummy.pgm -> /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/config
+creating /home/neverdiedooms/ros2_ws/install/segurito_production/share/segurito_production/maps
+running install_egg_info
+Copying ../../build/segurito_production/segurito_production.egg-info to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages/segurito_production-0.0.0-py3.10.egg-info
+running install_scripts
+Installing drive_base script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+Installing imu_node script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+Installing odometria script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+Installing static_laser_tf script to /home/neverdiedooms/ros2_ws/install/segurito_production/lib/segurito_production
+writing list of installed files to '/home/neverdiedooms/ros2_ws/build/segurito_production/install.log'

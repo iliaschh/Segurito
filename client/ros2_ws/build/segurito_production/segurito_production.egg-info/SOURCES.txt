@@ -1,0 +1,24 @@
+package.xml
+setup.cfg
+setup.py
+config/dummy.pgm
+config/dummy_map.yaml
+config/ekf.yaml
+config/nav2_params copy.yaml
+config/nav2_params.yaml
+config/slam_localization.yaml
+config/slam_mapping.yaml
+launch/mapping_launch.py
+resource/segurito_production
+segurito_production/__init__.py
+segurito_production/drive_base.py
+segurito_production/imu_node.py
+segurito_production/odometria_node.py
+segurito_production/static_laser_tf.py
+segurito_production.egg-info/PKG-INFO
+segurito_production.egg-info/SOURCES.txt
+segurito_production.egg-info/dependency_links.txt
+segurito_production.egg-info/entry_points.txt
+segurito_production.egg-info/requires.txt
+segurito_production.egg-info/top_level.txt
+segurito_production.egg-info/zip-safe
