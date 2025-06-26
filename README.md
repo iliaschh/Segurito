@@ -269,10 +269,10 @@ ros2 launch segurito_production mapping_launch.py
 
 
 ---
+
 ## Uso
 
-Una vez completada la [instalación](#instalación) y con **Segurito** encendido
----
+   Una vez completada la [instalación](#instalación) y con **Segurito** encendido
 
 ### 1. Panel Web (GUI)
 
