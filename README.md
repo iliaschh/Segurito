@@ -325,7 +325,7 @@ Con esto, Segurito patrullará su entorno, evitará colisiones, detectará intru
 
    [Image Source](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.616470/full)
 
-- **Planificación de Rutas**: Usamos A* para la busqueda de la ruta optima mediante costes acumulados desde el inivio g().
+- **Planificación de Rutas**: Usamos A* / Dijkstra para la busqueda de la ruta optima mediante costes acumulados desde el inivio g().
 
    ![Vista Previa A*](resources/Astar.gif)
 
