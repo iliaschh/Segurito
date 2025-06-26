@@ -32,9 +32,8 @@ Segurito es un robot de seguridad autónomo diseñado para patrullar y supervisa
 - Mapea su entorno usando algoritmos LiDAR y SLAM
 - Detecta obstáculos y objetos en movimiento para una navegación segura
 - Identifica humanos y animales mediante reconocimiento por cámara
-- Autentica al personal autorizado usando reconocimiento facial
 - Activa alarmas y envía notificaciones remotas al detectar intrusos
-- Atiende comandos de voz a través de un micrófono integrado
+- Envia y recibe audios de voz en remoto a traves del altavoz y del micrófono integrado
 
 Segurito combina hardware con módulos de software inteligentes para dar una solución de seguridad integral.
 
@@ -46,11 +45,9 @@ Segurito combina hardware con módulos de software inteligentes para dar una sol
 - **Evitación de Colisiones**: Detecta y evita obstáculos.
 - **Detección de Movimiento**: Sensor PIR para mayor precisión.
 - **Reconocimiento de Humanos y Animales**: Clasifica las figuras capturadas por la cámara.
-- **Autenticación Facial**: Reconoce rostros autorizados para dar accesos.
-- **Sistema de Alarma**: Emite sonidos a traves del altavoz al detectar intrusos.
-- **Comandos de Voz**: Micrófono para recibir instrucciones.
+- **Sistema de Alarma**: Emite sonidos a traves del altavoz al detectar intrusos y enviar notificaciones.
+- **Comandos de Voz**: Micrófono para hablar.
 - **Conectividad en la Nube**: Envía alertas y transmisión de video en vivo a un panel remoto.
-
 
 ---
 
@@ -80,7 +77,7 @@ Segurito combina hardware con módulos de software inteligentes para dar una sol
 
 ## Modelo 3D
 
-El chasis completo del robot y los soportes de los componentes han sido diseñados en Fusion 360. Puedes encontrar los archivos del modelo aquí:
+El chasis completo del robot y los soportes de los componentes han sido diseñados en OnShape. Puedes encontrar los archivos del modelo aquí:
 
 - `3Dmodels/Base.stl`
 - `3Dmodels/Adaptador Base.stl`
@@ -100,6 +97,10 @@ Vista Previa del Ensamblaje 3D
 ## Diagramas de Arquitectura
 
 ### Diagrama de Hardware
+
+El circuito ha sido creado mediante la herramienta Fritzing, puedes encontrar el archivo aquí:
+
+- `circuits/EsquemaCircuitos.fzz`
 
 ![Diagrama de Hardware](resources/EsquemaHW.png)
 
@@ -211,7 +212,7 @@ Accede a video en vivo y alertas en: [Enlace](https://...)
 - **Yolo V11**: Detector de figuras humanas de una sola etapa en tiempo real que divide la imagen en celdas para predecir simultáneamente cajas delimitadoras y probabilidades.
 
    ![Vista Previa Yolov11](resources/yolo11.webp)
-   
+
    [Image Source](https://learnopencv.com/yolo11/)
 
 ---
@@ -221,9 +222,6 @@ Accede a video en vivo y alertas en: [Enlace](https://...)
 - 1 (@iliaschh) - Ilias Chakrane Hedioued   
 - 2 (@isma-fernandez) — Ismael Fernandez Zarza  
 - 3 (@towni848) — Antonio Morcillo Luque
-
-¡Contribuciones bienvenidas! Consulta `CONTRIBUTING.md`.  
-
 ---
 
 ## Licencia
