@@ -106,6 +106,12 @@ El circuito ha sido creado mediante la herramienta Fritzing, puedes encontrar el
 
 ### Diagrama de Software
 
+#### Simplificado
+
+![Diagrama de Software](resources/EsquemaSW_simplificado.png)
+
+#### Completo
+
 ![Diagrama de Software](resources/EsquemaSW.png)
 
 ---
