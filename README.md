@@ -106,11 +106,11 @@ El circuito ha sido creado mediante la herramienta Fritzing, puedes encontrar el
 
 ### Diagrama de Software
 
-#### Simplificado
+Diagrama simplificado.
 
 ![Diagrama de Software](resources/EsquemaSW_simplificado.png)
 
-#### Completo
+Diagrama completo.
 
 ![Diagrama de Software](resources/EsquemaSW.png)
 
@@ -315,6 +315,9 @@ Con esto, Segurito patrullará su entorno, evitará colisiones, detectará intru
 
 - **SLAM**: Fusión con RTAB‑Map de nubes de puntos LiDAR y odometría.
 
+   ![Vista Previa Generation Map](resources/GenerationMap.png)
+
+   [Image Source](3Dmodels/Base.stl)
 
 - **Wavefront Frontier Exploration**: Método para identificar "fronteras" entre areas en un mapa de ocupación y decidir el siguiente camino.
 
