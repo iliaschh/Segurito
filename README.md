@@ -317,7 +317,7 @@ Con esto, Segurito patrullará su entorno, evitará colisiones, detectará intru
 
    ![Vista Previa Generation Map](resources/GenerationMap.png)
 
-   [Image Source](3Dmodels/Base.stl)
+   [Image Source](resources/GenerationMap.png)
 
 - **Wavefront Frontier Exploration**: Método para identificar "fronteras" entre areas en un mapa de ocupación y decidir el siguiente camino.
 
