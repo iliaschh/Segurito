@@ -196,11 +196,11 @@ Accede a video en vivo y alertas en: [Enlace](https://...)
 - **SLAM**: Fusión con RTAB‑Map de nubes de puntos LiDAR y odometría.
 - **Wavefront Frontier Exploration**: Método para identificar "fronteras" entre areas en un mapa de ocupación y decidir el siguiente camino.
 
-![Vista Previa Wavefront](resources/Wavefront.png)
+![Vista Previa Wavefront](resources/Wavefront.jpg)
 
 - **Planificación de Rutas**: Busqueda de la ruta optima mediante costes acumulados desde el inivio g().
 
-![Vista Previa Wavefront](resources/Astar.png)
+![Vista Previa Wavefront](resources/Astar.gif)
 
 - **Reconocimiento de personas**: Yolo v5.
 
