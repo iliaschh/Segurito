@@ -194,8 +194,11 @@ Accede a video en vivo y alertas en: [Enlace](https://...)
 ## Algoritmos
 
 - **SLAM**: Fusión con RTAB‑Map de nubes de puntos LiDAR y odometría.
+
+
 - **Wavefront Frontier Exploration**: Método para identificar "fronteras" entre areas en un mapa de ocupación y decidir el siguiente camino.
 
+`Respresentación del algoritmo. Extraido de: [Enlace](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.616470/full)`
 ![Vista Previa Wavefront](resources/Wavefront.jpg)
 
 - **Planificación de Rutas**: Busqueda de la ruta optima mediante costes acumulados desde el inivio g().
