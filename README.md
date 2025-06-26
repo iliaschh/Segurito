@@ -20,7 +20,7 @@
    - [Reconocimiento de Objetos y Rostros](#reconocimiento-de-objetos-y-rostros)
    - [Monitoreo Remoto](#monitoreo-remoto)
 8. [Algoritmos](#algoritmos)
-9. [Video funcionamiento](#Video funcionamiento)
+9. [Video funcionamiento](#Video-funcionamiento)
 10. [Contribuidores](#contribuidores)
 11. [Licencia](#licencia)
 
