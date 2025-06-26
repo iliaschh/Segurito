@@ -263,36 +263,45 @@ ros2 launch segurito_production mapping_launch.py
 
 
 ---
-
 ## Uso
 
-### Escaneo y Mapeo LiDAR
+Una vez completada la [instalación](#instalación) y con **Segurito** encendido
+---
+
+### 1. Panel Web (GUI)
+
+El panel se ejecuta automáticamente cuando lanzas el stack y está disponible en:
+
+```
+http://<IP_DEL_CONTROLADOR>:8080
+```
+
+| Función | Dónde encontrarla | Qué hace |
+|---------|------------------|----------|
+| **Live View** | Pestaña *Dashboard* | Muestra vídeo en tiempo real con superposición de detección de personas/animales (YOLO v11). |
+| **Comenzar exploración** | Botón en *Navigation* | Inicia mapeo autónomo y exploración de fronteras usando LiDAR + SLAM *(WFD + RTAB‑Map)*. |
+| **Cargar mapa** | *Maps › Upload* | Sube un `.pgm/.yaml` previamente guardado para patrullar sobre un entorno conocido. |
+| **Control remoto** | Joystick virtual / teclado WASD | Teleoperación directa para movimientos puntuales. |
+| **Alerts**
+
+
+### Flujo típico de trabajo
+
+1. **Lanzar stack**  
    ```bash
-   rosrun segurito lidar_mapping.py \
-   --scan_topic /scan \
-   --output_map maps/segurito_map.pgm
+   ros2 launch segurito bringup.launch.py
    ```
+2. Abrir navegador en `http://<IP_DEL_ROBOT>:8080`.
+3. Pulsar **Empezar exploración** → el robot mapea.
+4. Opcional: **Guardar mapa** al terminar.
+5. En **Cargar mapa**, cargar el mapa y definir ruta de patrulla.
+6. Activar **Alerts** para recibir notificaciones fuera de horario.
 
-Genera una barrida de 360°, recoge nubes de puntos y guarda un mapa de ocupación.
+Con esto, Segurito patrullará su entorno, evitará colisiones, detectará intrusos y te avisará en tiempo real.
 
-### Detección de Movimiento
-   ```bash
-   python3 src/motion_detector.py
-   ```
+---
 
-Monitorea el sensor PIR conectado al GPIO 17.
-
-### Reconocimiento de Objetos y Rostros
-   ```bash
-   rosrun segurito recognition_node.py \
-   --model models/face_recognition.pkl
-   ```
-
-Monitorea el sensor PIR conectado al GPIO 17.
-
-### Monitoreo Remoto
-
-Accede a video en vivo y alertas en: [Enlace](https://...)
+> ¿Problemas? Consulta los logs con `ros2 run rclcpp_components component_container` o abre un *ticket* en el repositorio.
 
 ---
 
