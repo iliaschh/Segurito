@@ -20,8 +20,9 @@
    - [Reconocimiento de Objetos y Rostros](#reconocimiento-de-objetos-y-rostros)
    - [Monitoreo Remoto](#monitoreo-remoto)
 8. [Algoritmos](#algoritmos)
-9. [Contribuidores](#contribuidores)
-10. [Licencia](#licencia)
+9. [Video funcionamiento](#Video funcionamiento)
+10. [Contribuidores](#contribuidores)
+11. [Licencia](#licencia)
 
 ---
 
@@ -336,6 +337,14 @@ Con esto, Segurito patrullará su entorno, evitará colisiones, detectará intru
    ![Vista Previa Yolov11](resources/yolo11.webp)
 
    [Image Source](https://learnopencv.com/yolo11/)
+
+---
+
+## Video funcionamiento
+
+Para visualizar el funcionamiento del robto puede acceder al siguiente link de youtube:
+
+[Youtube](https://youtu.be/RQerVg_xf7g)
 
 ---
 
