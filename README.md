@@ -20,9 +20,8 @@
    - [Reconocimiento de Objetos y Rostros](#reconocimiento-de-objetos-y-rostros)
    - [Monitoreo Remoto](#monitoreo-remoto)
 8. [Algoritmos](#algoritmos)
-9. [Simulación](#simulación)
-10. [Contribuidores](#contribuidores)
-11. [Licencia](#licencia)
+9. [Contribuidores](#contribuidores)
+10. [Licencia](#licencia)
 
 ---
 
@@ -195,27 +194,23 @@ Accede a video en vivo y alertas en: [Enlace](https://...)
 ## Algoritmos
 
 - **SLAM**: Fusión con RTAB‑Map de nubes de puntos LiDAR y odometría.
-- **Planificación de Rutas**: A* sobre la cuadrícula de ocupación.
-- **Clasificación de Objetos**: CNN ResNet‑50 entrenada con COCO.
-- **Reconocimiento Facial**: Embeddings FaceNet + SVM.
-- **Alerta de Intrusos**: Combina confianza del reconocimiento con entrada PIR.
+- **Wavefront Frontier Exploration**: Método para identificar "fronteras" entre areas en un mapa de ocupación y decidir el siguiente camino.
 
----
+![Vista Previa Wavefront](resources/Wavefront.png)
 
-## Simulación
+- **Planificación de Rutas**: Busqueda de la ruta optima mediante costes acumulados desde el inivio g().
 
-Ejecuta la escena en CoppeliaSim antes del despliegue de hardware:
-   ```bash
-   coppeliaSim.sh scenes/segurito_scene.ttt
-   ```
+![Vista Previa Wavefront](resources/Astar.png)
+
+- **Reconocimiento de personas**: Yolo v5.
 
 ---
 
 ## Contribuidores
 
-- 1 (@yourusername) — Líder de Proyecto, SLAM y Navegación  
-- 2 (@colleagueA) — Visión y Reconocimiento  
-- 3 (@colleagueB) — Integración de Hardware  
+- 1 (@iliaschh) - Ilias Chakrane Hedioued   
+- 2 (@isma-fernandez) — Ismael Fernandez Zarza  
+- 3 (@) — Antonio Morcillo Luque
 
 ¡Contribuciones bienvenidas! Consulta `CONTRIBUTING.md`.  
 
