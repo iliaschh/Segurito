@@ -202,7 +202,9 @@ Accede a video en vivo y alertas en: [Enlace](https://...)
 
 ![Vista Previa Wavefront](resources/Astar.gif)
 
-- **Reconocimiento de personas**: Yolo v5.
+- **Yolo V11**: Detector de figuras humanas de una sola etapa en tiempo real que divide la imagen en celdas para predecir simultáneamente cajas delimitadoras y probabilidades.
+
+![Vista Previa Wavefront](resources/yolo11.webp)
 
 ---
 
