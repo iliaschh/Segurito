@@ -198,7 +198,7 @@ Accede a video en vivo y alertas en: [Enlace](https://...)
 
 - **Wavefront Frontier Exploration**: Método para identificar "fronteras" entre areas en un mapa de ocupación y decidir el siguiente camino.
 
-`Respresentación del algoritmo. Extraido de: [Enlace](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.616470/full)`
+`Respresentación del algoritmo. Extraido de:` [Enlace](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.616470/full)
 
 ![Vista Previa Wavefront](resources/Wavefront.jpg)
 
