@@ -198,17 +198,21 @@ Accede a video en vivo y alertas en: [Enlace](https://...)
 
 - **Wavefront Frontier Exploration**: Método para identificar "fronteras" entre areas en un mapa de ocupación y decidir el siguiente camino.
 
-`Respresentación del algoritmo. Extraido de:` [Enlace](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.616470/full)
+Imagen extraida de [Aquí](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.616470/full)
 
 ![Vista Previa Wavefront](resources/Wavefront.jpg)
 
-- **Planificación de Rutas**: Busqueda de la ruta optima mediante costes acumulados desde el inivio g().
+- **Planificación de Rutas**: Usamos A* para la busqueda de la ruta optima mediante costes acumulados desde el inivio g().
 
-![Vista Previa Wavefront](resources/Astar.gif)
+Imagen extraida de [Aquí](https://github.com/AtsushiSakai/PythonRobotics)
+
+![Vista Previa A*](resources/Astar.gif)
 
 - **Yolo V11**: Detector de figuras humanas de una sola etapa en tiempo real que divide la imagen en celdas para predecir simultáneamente cajas delimitadoras y probabilidades.
 
-![Vista Previa Wavefront](resources/yolo11.webp)
+Imagen extraida de [Aquí](https://learnopencv.com/yolo11/)
+
+![Vista Previa Yolov11](resources/yolo11.webp)
 
 ---
 
