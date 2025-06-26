@@ -1,9 +1,0 @@
-source;share/segurito_production/hook/pythonpath.ps1
-source;share/segurito_production/hook/pythonpath.dsv
-source;share/segurito_production/hook/pythonpath.sh
-source;share/segurito_production/hook/ament_prefix_path.ps1
-source;share/segurito_production/hook/ament_prefix_path.dsv
-source;share/segurito_production/hook/ament_prefix_path.sh
-source;../../build/segurito_production/share/segurito_production/hook/pythonpath_develop.ps1
-source;../../build/segurito_production/share/segurito_production/hook/pythonpath_develop.dsv
-source;../../build/segurito_production/share/segurito_production/hook/pythonpath_develop.sh

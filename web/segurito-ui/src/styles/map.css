@@ -1,0 +1,5 @@
+canvas {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimizeQuality;
+  image-rendering: smooth;
+}

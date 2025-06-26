@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/neverdiedooms/segurito_web_ws/build/segurito_exploration_control",
+        "/home/neverdiedooms/segurito_web_ws/install/segurito_exploration_control/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2_ws/build/segurito_production",
+        "/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages",
+        "/home/neverdiedooms/explore_ws/install/nav2_wfd/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/neverdiedooms/segurito_web_ws/build/segurito_exploration_control",
+        "/home/neverdiedooms/segurito_web_ws/install/segurito_exploration_control/lib/python3.10/site-packages",
+        "/home/neverdiedooms/ros2_ws/build/segurito_production",
+        "/home/neverdiedooms/ros2_ws/install/segurito_production/lib/python3.10/site-packages",
+        "/home/neverdiedooms/explore_ws/install/nav2_wfd/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
