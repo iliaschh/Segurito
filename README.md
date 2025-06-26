@@ -114,15 +114,23 @@ El circuito ha sido creado mediante la herramienta Fritzing, puedes encontrar el
 
 ### Requisitos
 
-**Software**
+| Paquete / Stack                                        | Versión recomendada        |
+|--------------------------------------------------------|----------------------------|
+| Python                                                 | 3.10 +                     |
+| OpenCV                                                 | 4.x                        |
+| **ROS 2 Humble**                                       | Desktop-Full               |
+| NumPy, SciPy, scikit-learn                             | —                          |
+| SLAM (p. ej. `rtabmap_ros`)                            | versión Humble             |
+| TensorFlow / PyTorch                                   | —                          |
+| **Navigation2 (stack Nav2)**<br/>`nav2_bringup`, `nav2_waypoint_follower`, `nav2_collision_monitor`, `nav2_wfd` | versión Humble |
+| `rosbridge_suite` (`rosbridge_server`)                 | versión Humble             |
+| `vision_opencv` (`cv_bridge`, `image_transport`)       | versión Humble             |
+| `rplidar_ros`                                          | versión Humble             |
+| GStreamer 1.0 (para RTSP/streaming)                    | ≥ 1.18                     |
+| Node.js + npm (para la web React)                      | ≥ 18 LTS                   |
 
-- Python 3.9+
-- OpenCV 4.x
-- ROS Noetic
-- NumPy, SciPy, Scikit‑learn
-- Librería SLAM (p. ej., `rtabmap_ros`)
-- TensorFlow o PyTorch (para modelos de reconocimiento)
 
+> **Nota:** ROS 2 Humble está pensado para Ubuntu 22.04 LTS.
 ### Guía de Instalación
 
 1. **Flashear el Sistema Operativo**
