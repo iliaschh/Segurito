@@ -199,16 +199,19 @@ Accede a video en vivo y alertas en: [Enlace](https://...)
 - **Wavefront Frontier Exploration**: Método para identificar "fronteras" entre areas en un mapa de ocupación y decidir el siguiente camino.
 
    ![Vista Previa Wavefront](resources/Wavefront.jpg)
+
    [Image Source](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.616470/full)
 
 - **Planificación de Rutas**: Usamos A* para la busqueda de la ruta optima mediante costes acumulados desde el inivio g().
 
    ![Vista Previa A*](resources/Astar.gif)
+
    [Image Source](https://github.com/AtsushiSakai/PythonRobotics)
 
 - **Yolo V11**: Detector de figuras humanas de una sola etapa en tiempo real que divide la imagen en celdas para predecir simultáneamente cajas delimitadoras y probabilidades.
 
    ![Vista Previa Yolov11](resources/yolo11.webp)
+   
    [Image Source](https://learnopencv.com/yolo11/)
 
 ---
