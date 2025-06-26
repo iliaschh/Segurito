@@ -347,3 +347,4 @@ Con esto, Segurito patrullará su entorno, evitará colisiones, detectará intru
 ---
 
 ## Licencia
+MIT
