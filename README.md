@@ -133,39 +133,135 @@ El circuito ha sido creado mediante la herramienta Fritzing, puedes encontrar el
 > **Nota:** ROS 2 Humble está pensado para Ubuntu 22.04 LTS.
 ### Guía de Instalación
 
-1. **Flashear el Sistema Operativo**
+> Estas instrucciones están pensadas para una **Raspberry Pi 4 B** (4 GB RAM) corriendo **Ubuntu 22.04 LTS (64 bit)**, que es la distribución soportada oficialmente por **ROS 2 Humble** y los paquetes listados en la tabla de requisitos.  
+> Ajusta los comandos a tu arquitectura (x86_64 / ARM64) si vas a montar Segurito sobre otro hardware.
+
+---
+
+### 1. Preparar el sistema operativo
+
+1. **Flashear Ubuntu Server 22.04 LTS**  
+   Descarga la imagen para Raspberry Pi desde la web de Canonical y grábala en la micro-SD:
    ```bash
-   sudo dd if=raspbian.img of=/dev/sdX bs=4M status=progress
+   sudo dd if=ubuntu-22.04-preinstalled-server-arm64+raspi.img \
+           of=/dev/sdX bs=4M status=progress conv=fsync
    ```
-2. **Actualizar el Sistema**
-   ```bash
-   sudo apt-get update && sudo apt-get upgrade -y
-   ```
-3. **Instalar ROS Noetic**
-   ```bash
-   sudo apt install ros-noetic-desktop-full
-   source /opt/ros/noetic/setup.bash
-   ```
-4. **Instalar el Driver del LiDAR**
-   ```bash
-   sudo apt install ros-noetic-ydlidar
-   ```
-5. **Clonar el Repositorio**
-   ```bash
-   git clone https://github.com/yourusername/segurito.git
-   cd segurito
-   ```
-6. **Instalar Dependencias de Python**
-   ```bash
-   pip install -r requirements.txt
-   ```
-7. **Compilar y Ejecutar**
-   ```bash
-   catkin_make
-   source devel/setup.bash
-   roslaunch segurito main.launch
-   ```
-   
+2. **Primer arranque y configuración básica**  
+   - Cambia la contraseña por defecto (`ubuntu/ubuntu`).  
+   - Actualiza el sistema:
+     ```bash
+     sudo apt update && sudo apt full-upgrade -y
+     sudo reboot
+     ```
+   - Activa la cámara y el I²C en `/boot/firmware/config.txt` (si es necesario).
+
+---
+
+### 2. Instalar ROS 2 Humble
+
+> Sigue la guía oficial <https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html>.
+
+```bash
+# Añadir repositorio y claves
+sudo apt install curl gnupg lsb-release -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc \
+     | sudo tee /usr/share/keyrings/ros-archive-keyring.gpg >/dev/null
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] \
+     http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" \
+     | sudo tee /etc/apt/sources.list.d/ros2.list
+
+# Instalar metapaquete Desktop-Full (incluye Nav2 y rqt)
+sudo apt update
+sudo apt install ros-humble-desktop-full -y
+
+# Configurar el entorno
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+
+---
+
+### 3. Instalar dependencias específicas
+
+```bash
+# LiDAR RPLIDAR-C1
+sudo apt install ros-humble-rplidar-ros -y
+
+# SLAM y exploración
+sudo apt install ros-humble-rtabmap-ros ros-humble-nav2-bringup \
+                 ros-humble-nav2-waypoint-follower \
+                 ros-humble-nav2-collision-monitor \
+                 ros-humble-nav2-wfd -y
+
+# Puente WebSocket
+sudo apt install ros-humble-rosbridge-suite -y
+
+# Visión por computador
+sudo apt install ros-humble-vision-opencv ros-humble-cv-bridge \
+                 ros-humble-image-transport -y
+
+# Python scientific stack
+sudo apt install python3-pip python3-venv -y
+python3 -m venv ~/segurito_venv
+source ~/segurito_venv/bin/activate
+pip install --upgrade pip
+pip install opencv-python==4.* numpy scipy scikit-learn \
+            torch torchvision tensorflow  # opcional según modelo
+
+# GStreamer 1.18 + para streaming RTSP
+sudo apt install gstreamer1.0-tools gstreamer1.0-plugins-base \
+                 gstreamer1.0-plugins-good gstreamer1.0-plugins-bad -y
+
+# Node.js 18 LTS para el panel web
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+```
+
+---
+
+### 4. Clonar y compilar el workspace
+
+```bash
+mkdir -p ~/segurito_ws/src
+cd ~/segurito_ws/src
+git clone https://github.com/yourusername/segurito.git
+cd ~/segurito_ws
+
+# Instalar dependencias ROS declaradas en package.xml
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
+
+# Compilar con colcon
+colcon build --symlink-install
+source install/setup.bash
+echo "source ~/segurito_ws/install/setup.bash" >> ~/.bashrc
+```
+
+---
+
+### 5. Lanzar Segurito
+
+```bash
+# Lanza todo el stack (navegación, LiDAR, visión y web)
+# Controlador
+ros2 launch segurito_exploration_node web_backend.launch.py
+npm dev run #Web
+# Robot
+ros2 launch segurito_production mapping_launch.py
+```
+
+---
+
+### 6. Verificación rápida
+
+| Función                    | Comando de prueba                                                 | Resultado esperado                              |
+|----------------------------|-------------------------------------------------------------------|------------------------------------------------|
+| LiDAR /scan                | `ros2 topic echo /scan --once`                                    | Muestra 360 rays JSON                          |
+| Stream cámara              | `rqt_image_view /camera/image_raw`                                | Imagen en vivo                                 |
+| SLAM RTAB-Map              | `ros2 launch rtabmap_ros rtabmap.launch.py rviz:=true`            | Mapa en RViz                                   |
+| Nav2 Waypoint Follower     | `ros2 action send_goal /follow_waypoints nav2_msgs/FollowWaypoints`| Robot navega por los waypoints                 |
+
+
 ---
 
 ## Uso
