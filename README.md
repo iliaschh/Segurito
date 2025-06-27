@@ -127,7 +127,7 @@ Diagrama completo.
 | OpenCV                                                 | 4.x                        |
 | **ROS 2 Humble**                                       | Desktop-Full               |
 | NumPy, SciPy, scikit-learn                             | —                          |
-| SLAM (p. ej. `rtabmap_ros`)                            | versión Humble             |
+| SLAM                            | versión Humble             |
 | TensorFlow / PyTorch                                   | —                          |
 | **Navigation2 (stack Nav2)**<br/>`nav2_bringup`, `nav2_waypoint_follower`, `nav2_collision_monitor`, `nav2_wfd` | versión Humble |
 | `rosbridge_suite` (`rosbridge_server`)                 | versión Humble             |
@@ -265,7 +265,7 @@ ros2 launch segurito_production mapping_launch.py
 |----------------------------|-------------------------------------------------------------------|------------------------------------------------|
 | LiDAR /scan                | `ros2 topic echo /scan --once`                                    | Muestra 360 rays JSON                          |
 | Stream cámara              | `rqt_image_view /camera/image_raw`                                | Imagen en vivo                                 |
-| SLAM RTAB-Map              | `ros2 launch rtabmap_ros rtabmap.launch.py rviz:=true`            | Mapa en RViz                                   |
+| SLAM              | `ros2 launch rtabmap_ros rtabmap.launch.py rviz:=true`            | Mapa en RViz                                   |
 | Nav2 Waypoint Follower     | `ros2 action send_goal /follow_waypoints nav2_msgs/FollowWaypoints`| Robot navega por los waypoints                 |
 
 
@@ -302,7 +302,7 @@ http://<IP_DEL_CONTROLADOR>:8080
 3. Pulsar **Empezar exploración** → el robot mapea.
 4. Opcional: **Guardar mapa** al terminar.
 5. En **Cargar mapa**, cargar el mapa y definir ruta de patrulla.
-6. Activar **Alerts** para recibir notificaciones fuera de horario.
+6. **Alerts** para recibir notificaciones fuera de horario.
 
 Con esto, Segurito patrullará su entorno, evitará colisiones, detectará intrusos y te avisará en tiempo real.
 
@@ -314,7 +314,7 @@ Con esto, Segurito patrullará su entorno, evitará colisiones, detectará intru
 
 ## Algoritmos
 
-- **SLAM**: Fusión con RTAB‑Map de nubes de puntos LiDAR y odometría.
+- **SLAM**: Puntos LiDAR y odometría.
 
    ![Vista Previa Generation Map](resources/GenerationMap.png)
 
