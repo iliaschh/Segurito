@@ -265,7 +265,7 @@ ros2 launch segurito_production mapping_launch.py
 |----------------------------|-------------------------------------------------------------------|------------------------------------------------|
 | LiDAR /scan                | `ros2 topic echo /scan --once`                                    | Muestra 360 rays JSON                          |
 | Stream cámara              | `rqt_image_view /camera/image_raw`                                | Imagen en vivo                                 |
-| SLAM              | `ros2 launch rtabmap_ros rtabmap.launch.py rviz:=true`            | Mapa en RViz                                   |
+| SLAM              | `ros2 launch rp_lidar_ros rp_lidar_c1.launch.py rviz:=true`            | Mapa en RViz                                   |
 | Nav2 Waypoint Follower     | `ros2 action send_goal /follow_waypoints nav2_msgs/FollowWaypoints`| Robot navega por los waypoints                 |
 
 
@@ -305,12 +305,6 @@ http://<IP_DEL_CONTROLADOR>:8080
 6. **Alerts** para recibir notificaciones fuera de horario.
 
 Con esto, Segurito patrullará su entorno, evitará colisiones, detectará intrusos y te avisará en tiempo real.
-
----
-
-> ¿Problemas? Consulta los logs con `ros2 run rclcpp_components component_container` o abre un *ticket* en el repositorio.
-
----
 
 ## Algoritmos
 
